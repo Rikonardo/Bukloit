@@ -4,7 +4,7 @@ Utility to automatically implement a backdoor in Bukkit and Spigot plugins.
 
 ![Bukloit Logo](https://i.imgur.com/4mqGWoQ.png)
 
-> *Readme text translated by Google Translator, grammar errors may occur.*
+> *Readme text translated by Google Translator, grammar errors possible.*
 
 [![GitHub](https://img.shields.io/github/license/Rikonardo/Bukloit)](https://github.com/Rikonardo/Bukloit/blob/master/LICENSE.txt) [![GitHub release (latest by date)](https://img.shields.io/github/v/release/Rikonardo/Bukloit)](https://github.com/Rikonardo/Bukloit/releases) [![GitHub issues](https://img.shields.io/github/issues/Rikonardo/Bukloit)](https://github.com/Rikonardo/Bukloit/issues) ![GitHub issues](https://img.shields.io/badge/java_version-1.8.0-orange) 
 
