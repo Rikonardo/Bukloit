@@ -6,9 +6,9 @@ Utility to automatically implement a backdoor in Bukkit and Spigot plugins.
 
 > *Readme text translated by Google Translator, grammar errors may occur.*
 
-[![GitHub](https://img.shields.io/github/license/Rikonardo/Bukloit)](https://github.com/Rikonardo/Bukloit/blob/master/LICENSE.md) [![GitHub release (latest by date)](https://img.shields.io/github/v/release/Rikonardo/Bukloit)](https://github.com/Rikonardo/Bukloit/releases) [![GitHub issues](https://img.shields.io/github/issues/Rikonardo/Bukloit)](https://github.com/Rikonardo/Bukloit/issues) ![GitHub issues](https://img.shields.io/badge/java version-1.8.0-orange) 
+[![GitHub](https://img.shields.io/github/license/Rikonardo/Bukloit)](https://github.com/Rikonardo/Bukloit/blob/master/LICENSE.md) [![GitHub release (latest by date)](https://img.shields.io/github/v/release/Rikonardo/Bukloit)](https://github.com/Rikonardo/Bukloit/releases) [![GitHub issues](https://img.shields.io/github/issues/Rikonardo/Bukloit)](https://github.com/Rikonardo/Bukloit/issues) ![GitHub issues](https://img.shields.io/badge/java_version-1.8.0-orange) 
 
-[![Ready to use release](https://img.shields.io/badge/-DOWNLOAD READY TO USE RELEASE-blue?style=for-the-badge)](https://repo.rikonardo.now.sh/#/MC_Security_testing_kit/Bukloit) 
+[![Ready to use release](https://img.shields.io/badge/-DOWNLOAD_READY_TO_USE_RELEASE-blue?style=for-the-badge)](https://repo.rikonardo.now.sh/#/MC_Security_testing_kit/Bukloit) 
 
 ---
 
