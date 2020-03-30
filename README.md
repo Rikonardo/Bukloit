@@ -14,7 +14,7 @@ Utility to automatically implement a backdoor in Bukkit and Spigot plugins.
 
 ## About
 
-Bukloit is the first of its kind universal backdoor injector compatible with all Bukkit / Spigot plugins. Its feature is the ability to integrate with absolutely any plugin, and the implemented backdoor will work the same in all plugins. Bukloit was developed to test the security systems of Minecraft servers.
+Bukloit is the first of its kind universal backdoor injector compatible with all Bukkit/Spigot plugins. Its feature is the ability to integrate with absolutely any plugin, and the implemented backdoor will work the same in all plugins. Bukloit was developed to test the security systems of Minecraft servers.
 
 ### Features
 
@@ -61,4 +61,4 @@ Bukloit is the first of its kind universal backdoor injector compatible with all
 
 ---
 
-Planned features: stealth mode, hard mode.
+Planned features: *stealth mode*, *hard mode*.
