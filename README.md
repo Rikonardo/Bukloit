@@ -33,10 +33,10 @@ Bukloit is the first of its kind universal backdoor injector compatible with all
 
 | Short Argument | Long Argument | Description                                                  | Type  |
 | -------------- | ------------- | ------------------------------------------------------------ | ----- |
-| -m             | --mode        | Mode. Can be single/multiple.<br />Default: multiple.<br />In multiple mode, modifies all files in the specified folder. In single - only the specified file. | Value |
-| -k             | --key         | The text to be used to activate the backdoor.<br />Default: "-opme". | Value |
-| -i             | --input       | Path to input folder/file (mode dependent).<br />Default: in/in.jar. | Value |
-| -o             | --output      | Path to output folder/file (mode dependent).<br />Default: out/out.jar. | Value |
+| -m             | --mode        | Mode. Can be single/multiple.<br />Default: <ins>multiple</ins>.<br />In multiple mode, modifies all files in the specified folder. In single - only the specified file. | Value |
+| -k             | --key         | The text to be used to activate the backdoor.<br />Default: <ins>"-opme"</ins>. | Value |
+| -i             | --input       | Path to input folder/file (mode dependent).<br />Default: <ins>in</ins> (<ins>in.jar</ins> if mode is single). | Value |
+| -o             | --output      | Path to output folder/file (mode dependent).<br />Default: <ins>out</ins> (<ins>out.jar</ins> if mode is single). | Value |
 | -r             | --replace     | Replace output file if it already exists.                    | Flag  |
 
 ### Examples
