@@ -1,3 +1,3 @@
 # Bukloit
 
-Utility for creating backdoors in Bukkit plugins
+Utility for creating backdoors in Bukkit plugins.
