@@ -11,7 +11,7 @@ public class Logger {
 		System.out.println(buildString(LineType.WARN, textIn));
 	}
 	public static void error(String textIn) {
-		System.out.println(buildString(LineType.ERROR, textIn));
+		System.err.println(buildString(LineType.ERROR, textIn));
 	}
 	
 	private static String buildString(LineType typeIn, String textIn) {
