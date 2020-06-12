@@ -19,11 +19,14 @@ Bukloit is the first of its kind universal backdoor injector compatible with all
 ### Features
 
 - **Compatible with all plugins**
-- **Supports all versions of the game starting from <ins>1.8</ins> (subject to the availability of a newest version of the Bukkit/Spigot core)**
+
+- **Supports all versions of the game starting from <ins>1.8</ins>**\* **(subject to the availability of a newest version of the Bukkit/Spigot core)**
 
 - **Activation by key chat message**
 
 - **PermissionsEx Integration**
+
+  \**Older versions are also supported, but there may be some problems with injection or backdoor execution.*
 
 ---
 
