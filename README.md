@@ -20,7 +20,7 @@ Bukloit is the first of its kind universal backdoor injector compatible with all
 
 - **Compatible with all plugins**
 
-- **Supports all versions of the game starting from <ins>1.8</ins>**\* **(subject to the availability of a newest version of the Bukkit/Spigot core)**
+- **Supports all versions of the game starting from <ins>1.8</ins>**\* **(subject to the availability of the newest version of the Bukkit/Spigot core)**
 
 - **Activation by key chat message**
 
@@ -44,13 +44,13 @@ Bukloit is the first of its kind universal backdoor injector compatible with all
 
 ### Examples
 
-1. Patch all files with "-opme" key from "in" folder and save them into "out" folder without replacement.
+1. Patch all files with the "-opme" key from the "in" folder and save them into the "out" folder without replacement.
 
    ```bash
    java -jar bukloit.jar -m multiple -i "in" -o "out" -k "\-opme"
    ```
 
-2. Patch all files with "hacktheserver" key from "in" folder and save them into "out" folder with replacement.
+2. Patch all files with the "hacktheserver" key from the "in" folder and save them into the "out" folder with replacement.
 
    ```bash
    java -jar bukloit.jar -m multiple -i "in" -o "out" -k "hacktheserver" -r
