@@ -1,3 +1,7 @@
+> :exclamation: **This project is temporarily abandoned. If you want a more functional injector with a GUI, use [Minecraft Backdoor](https://github.com/ThiccIndustries/Minecraft-Backdoor) by [@ThiccIndustries](https://github.com/ThiccIndustries)**
+
+---
+
 # Bukloit
 
 Utility to automatically implement a backdoor in Bukkit and Spigot plugins.
