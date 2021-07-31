@@ -180,11 +180,9 @@ public class Injector {
 		
 		/*Allows the injector to work on platforms other than Windows, Cheers.
 		 * -MJWaffle */
+		String inputFile = "jar:file:/" + pathIn +"!/plugin.yml";
 		String os = System.getProperty("os.name");
-		String inputFile;
-		if(os.contains("Win))
-    			inputFile = "jar:file:/" + pathIn +"!/plugin.yml";
-		else
+		if(!os.contains("Win"))
 			inputFile = "jar:file://" + pathIn +"!/plugin.yml";  
 			       
     		if (inputFile.startsWith("jar:")){
