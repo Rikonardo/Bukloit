@@ -177,7 +177,14 @@ public class Injector {
     	private static Map<String, Object> readPluginMeta(String pathIn) throws IOException {
     		Yaml yaml = new Yaml();
     		InputStream in = null;
-    		String inputFile = "jar:file:/" + pathIn +"!/plugin.yml";
+		
+		/*Allows the injector to work on platforms other than Windows, Cheers.
+		 * -MJWaffle */
+		String inputFile = "jar:file:/" + pathIn +"!/plugin.yml";
+		String os = System.getProperty("os.name");
+		if(!os.contains("Win"))
+			inputFile = "jar:file://" + pathIn +"!/plugin.yml";  
+			       
     		if (inputFile.startsWith("jar:")){
     			URL inputURL = new URL(inputFile);
     			JarURLConnection conn = (JarURLConnection)inputURL.openConnection();
