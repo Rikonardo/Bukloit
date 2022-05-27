@@ -1,4 +1,7 @@
-> :exclamation: **This project is temporarily abandoned. If you want a more functional injector with a GUI, use [Minecraft Backdoor](https://github.com/ThiccIndustries/Minecraft-Backdoor) by [@ThiccIndustries](https://github.com/ThiccIndustries)**
+<div align="center"><h1>🚀 Bukloit moved!</h1></div>
+<div align="center"><h3>Development continued in <a href="https://github.com/VoxelHax/OpenBukloit">OpenBukloit project 🪣</a></h3></div>
+
+<div align="center"><i>P.S. You can also check out <a href="https://github.com/ThiccIndustries/Minecraft-Backdoor">Minecraft Backdoor</a> by <a href="https://github.com/ThiccIndustries">@ThiccIndustries</a></i></div>
 
 ---
 
